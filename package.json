@@ -1,0 +1,23 @@
+{
+  "name": "PreEntrega2Gallonetti",
+  "version": "1.0.0",
+  "description": "secciones html\r -galeria\r -contacto\r -preguntas frecuentes\r -quienes somos\r -ilustraciones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartuGallonetti/PreEntrega2Gallonetti.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartuGallonetti/PreEntrega2Gallonetti/issues"
+  },
+  "homepage": "https://github.com/MartuGallonetti/PreEntrega2Gallonetti#readme",
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}

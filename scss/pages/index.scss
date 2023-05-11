@@ -1,0 +1,50 @@
+@import "../variables";
+@import "../mixins";
+.fondo-main {
+    background-color: $color1;
+}
+
+.encabezado{
+    @include titulos
+}
+
+
+.introduccion {
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 17px;
+    padding: 20px;
+}
+
+.cont-home{
+    max-width: 100%;
+}
+
+.principales-img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &_boton {
+        margin: 25px;
+        color: $color1;
+        border-color: $color5;
+        background-color: $color3;
+        padding: 5px;
+        border-radius: 5px;
+    
+        &:hover {
+            color:$color5;
+            border-radius: 100px;
+        }
+    }
+
+}
+
+.tatuajes-destacados {
+    height: 450px;
+}
+
+
+h1 {
+    color: #E0E1DD;
+}

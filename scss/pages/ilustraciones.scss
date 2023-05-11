@@ -1,0 +1,21 @@
+@import "../variables";
+@import "../mixins";
+
+.encabezado{
+    @include titulos
+}
+.fondo-ilus {
+    background-color: $color1;
+}
+
+
+.txt-ilus {
+    text-align: center;
+    font-size: 17px;
+    padding: 20px;
+}
+
+.img-ilus {
+    width: 400px;
+    height: 600px;
+}

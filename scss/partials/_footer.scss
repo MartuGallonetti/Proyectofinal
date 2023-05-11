@@ -1,0 +1,21 @@
+@import "../variables";
+.footer {
+    background-color: $color5;
+    padding: 5px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    }
+
+.link-footer {
+    list-style: none;
+    color: $color1;
+    
+}
+
+.lista-no-ordenada  {
+    list-style: none;
+    text-align: center;
+    margin: 25px;
+    padding: 25px;
+    color: $color1;
+}

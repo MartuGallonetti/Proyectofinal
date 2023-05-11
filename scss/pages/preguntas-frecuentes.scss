@@ -1,0 +1,19 @@
+@import "../variables";
+@import "../mixins";
+
+.encabezado{
+    @include titulos
+}
+.tabla-preg {
+    background-color: $color1;
+    padding: 40px;
+}
+
+.a-preg{
+    color: $color2;
+}
+
+.txt-preg {
+    font-size: 17px;
+    padding: 20px;
+}
