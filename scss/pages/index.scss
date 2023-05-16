@@ -4,16 +4,13 @@
     background-color: $color1;
 }
 
-.encabezado{
+.encabezado {
     @include titulos
 }
 
 
 .introduccion {
-    text-align: center;
-    margin-bottom: 5rem;
-    font-size: 17px;
-    padding: 20px;
+    @include texto
 }
 
 .cont-home{

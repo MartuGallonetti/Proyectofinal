@@ -12,7 +12,7 @@
         />
         <link rel="stylesheet" href="../css/styles.css" />
         <title>Flor Capone Tattoo Artist | Contacto</title>
-        <link rel="shortcut icon" href="./recursos/logo.png" />
+        <link rel="shortcut icon" href="../recursos/logo.png" />
     </head>
     <body>
         <header class="header">
@@ -61,45 +61,57 @@
         </header>
         <main id="main-contacto" class="container-fluid fondo-main">
             <h1 class="encabezado">Contacto</h1>
-            <form class="col-md-6">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label"
-                        >Nombre completo</label
-                    >
-                    <input
-                        type="text"
-                        class="form-control"
-                        id="exampleFormControlInput1"
-                        placeholder="Marina Rodriguez"
+            <p class="introduccion">Mandanos tu duda o consulta por acá!</p>
+            <div class="row">
+                <form class="col-md-4">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"
+                            >Nombre completo</label
+                        >
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="exampleFormControlInput1"
+                            placeholder="Marina Rodriguez"
+                        />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"
+                            >Email</label
+                        >
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="exampleFormControlInput1"
+                            placeholder="name@example.com"
+                        />
+                    </div>
+                    <div class="mb-3">
+                        <label
+                            for="exampleFormControlTextarea1"
+                            class="form-label"
+                            >Consulta</label
+                        >
+                        <textarea
+                            class="form-control"
+                            id="exampleFormControlTextarea1"
+                            rows="3"
+                        ></textarea>
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary mb-3">
+                            Enviar
+                        </button>
+                    </div>
+                </form>
+                <section class="col-md-8">
+                    <img
+                        class="img-cont"
+                        src="../recursos/mapa.png"
+                        alt="Pellegrini 1377"
                     />
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label"
-                        >Email</label
-                    >
-                    <input
-                        type="email"
-                        class="form-control"
-                        id="exampleFormControlInput1"
-                        placeholder="name@example.com"
-                    />
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label"
-                        >Consulta</label
-                    >
-                    <textarea
-                        class="form-control"
-                        id="exampleFormControlTextarea1"
-                        rows="3"
-                    ></textarea>
-                </div>
-                <div class="col-auto">
-                    <button type="submit" class="btn btn-primary mb-3">
-                        Enviar
-                    </button>
-                </div>
-            </form>
+                </section>
+            </div>
         </main>
         <footer class="footer">
             <ul class="lista-no-ordenada">

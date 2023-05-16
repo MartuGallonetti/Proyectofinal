@@ -1,5 +1,6 @@
 @import "../variables";
 @import "../mixins";
+
 .btn-primary {
     margin: 40px;
     padding: 15px;
@@ -10,4 +11,17 @@
 
 .encabezado{
     @include titulos
+}
+
+.introduccion {
+    @include texto
+}
+
+.img-cont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    // height: 350px;
+    width: 100%;
+    padding: 1.5em;
 }

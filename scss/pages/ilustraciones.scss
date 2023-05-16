@@ -8,11 +8,8 @@
     background-color: $color1;
 }
 
-
-.txt-ilus {
-    text-align: center;
-    font-size: 17px;
-    padding: 20px;
+.introduccion {
+    @include texto
 }
 
 .img-ilus {

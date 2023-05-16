@@ -4,3 +4,10 @@
     font-family:'Montserrat', sans-serif;
     color: $color3;
 }
+
+@mixin texto {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 17px;
+    padding: 20px;
+}
